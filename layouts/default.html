@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="layout">
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="name">MY_NAME</div>
+        <div class="role">Site Reliability Engineer</div>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#tech">Tools & Technologies</a>
+          <a href="#cv">Download CV</a>
+        </nav>
+      </aside>
+
+      <!-- Main content -->
+      <main class="content">
+        {{ content }}
+      </main>
+
+    </div>
+  </body>
+</html>
+
