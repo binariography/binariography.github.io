@@ -22,7 +22,7 @@ pygmentsCodefencesGuessSyntax = true
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
   subtitle = "Site Reliability Engineer"
   mainSections = ["post","posts"]
-  logo = "img/avatar-icon.gif" # Expecting square dimensions
+  logo = "images/avatar-icon.gif" # Expecting square dimensions
   favicon = "img/favicon-main.ico"
   dateFormat = "January 2, 2006"
   commit = false
@@ -54,7 +54,7 @@ pygmentsCodefencesGuessSyntax = true
 [Params.author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
   name = "Siavash Khalvati"
-  website = "ciavash.info"
+  website = "https://ciavash.info"
   email = "s.khalvati@gmail.com"
   github = "binariography"
   # gitlab = "username"
